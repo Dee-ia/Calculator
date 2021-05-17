@@ -1,0 +1,59 @@
+@import "./scss/bootstrap.scss";
+
+body{
+    background-color: #E5E5E5;
+    .section{
+        position: absolute;
+        width: 228px;
+        height: 171px;
+        left: 74px;
+        top: 0px;
+
+        .background{
+            position: relative;
+            left: 9.09%;
+            right: 10.75%;
+            top: 4.95%;
+            bottom: 7.37%;
+
+            .window{
+                position: relative;
+                //padding-right: 100%;
+                left: 16.4%;
+                right: 24.07%;
+                top: 27.61%;
+                bottom: 13.29%;
+                z-index: 2;
+
+                .cat{
+                    position: absolute;
+                    left: 19.02%;
+                    right: 68.28%;
+                    top: 22.85%;
+                    bottom: 66.51%;
+                    z-index: 1;
+
+                }
+
+
+                .girl-waving{
+                    position: absolute;
+                    left: 34.97%;
+                    right: 40.89%;
+                    top: 16.41%;
+                    bottom: 14.45%;
+                }
+    
+
+            }
+
+           
+        }
+
+        
+
+    }
+    
+
+
+}
